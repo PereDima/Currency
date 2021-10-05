@@ -113,7 +113,7 @@ export class AppComponent implements OnInit {
     }, 1000);
   }
 
-  // clearing data storage for preventing data duplication
+
   clearDataStorage() {
     this.data = [];
     this.value = [];
@@ -149,7 +149,7 @@ export class AppComponent implements OnInit {
     this.forceChartRerender();
   }
 
-  // generating a date range for API call with proper format
+
   dateRangeChange(
     dateRangeStart: HTMLInputElement,
     dateRangeEnd: HTMLInputElement
